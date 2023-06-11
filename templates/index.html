@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>URL Example</title>
+</head>
+<body>
+    <h1>URL Example</h1>
+    <p>The URL is: {{ url }}</p>
+    <img src="{{ url_for('static', filename=url) }}" alt="Example Image"
+    width="600"
+    height="auto">
+</body>
+</html>
