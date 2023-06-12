@@ -5,8 +5,8 @@
 </head>
 <body>
     <h1>URL Example</h1>
-    <p>The URL is: {{ url }}</p>
-    <img src="{{ url_for('static', filename=url) }}" alt="Example Image"
+    <p>The Response is:{{ url_for('static', filename=image_url) }}</p>
+    <img id="image" src="{{ url_for('static', filename=image_url) }}" alt="Example Image"
     width="600"
     height="auto">
 </body>
