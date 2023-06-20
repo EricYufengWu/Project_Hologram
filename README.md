@@ -1,2 +1,1 @@
-# Project_Hologram
-hologram flask app
+# Project Hologram

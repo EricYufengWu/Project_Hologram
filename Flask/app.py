@@ -11,7 +11,6 @@ socketio = SocketIO(app)
 # Store the image URL as a global variable
 image_url = 'images/tennis01.jpg'
 
-
 @app.route('/left')
 def left():
     global image_url
